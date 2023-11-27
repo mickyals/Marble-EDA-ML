@@ -1,0 +1,54 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts: 
+- caption: About This Books
+    - file: README
+
+
+- caption: The Computing Environment
+    chapters:
+    - file: contents/1_Computing_Environment/1_JupyterLab
+    - file: contents/1_Computing_Environment/2_Jupyter_Notebook_intro
+    - file: contents/1_Computing_Environment/3_Unix
+    - file: contents/1_Computing_Environment/4_Version_Control-and-Git
+
+- caption: The Core Python Language
+    chapters:
+
+
+- caption: Scientific Computing With Numpy and Matplotlib
+    chapters:
+    - file: contents/3_numpy/1a-worked_examples_numpy
+    - file: contents/3_numpy/2a-worked_examples_matplotlib
+
+
+- caption: Data Analysis With Pandas and Xarray
+    chapters:
+    - file: contents/4_pandas_xarray/2a-Basic_pandas_worked_example
+    - file: contents/4_pandas_xarray/2b-pandas_groupby_worked_examples
+    - file: contents/4_pandas_xarray/3a-basic_xarray
+    - file: contents/4_pandas_xarray/3b-more_xarray
+    - file: contents/4_pandas_xarray/3c-xarray_tips_and_tricks
+
+- caption: Mapping with Cartopy
+    chapters: 
+    - file: contents/5_cartopy/cartopy.ipynb
+
+
+- caption: Climate Model Data
+    chapters:
+    - file:
+
+
+- caption: Big Data
+    chapters:
+    - file:
+    - file: 
+
+    
+- caption: Machine Learning With Climate Data
+    chapters:
+    - file: 
